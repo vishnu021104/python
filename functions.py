@@ -136,3 +136,19 @@ my_function(fruits)
 
 def my_function():
     pass
+
+
+
+def display_student(name,age):
+    print(name,age)
+
+# call using original name
+display_student('suraj',30)
+
+# assign new name
+new_student=display_student
+
+# call using new name
+new_student('kumar',27)
+
+

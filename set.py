@@ -48,3 +48,13 @@ issuperset
 # a={1,2,3,4,5}
 # b={3,5,7,8,2}
 # print(a.issubset(b))
+
+
+s1={0,1,2,3,4}
+s2={5,6,7,8,9}
+
+zipped=zip(s1,s2)
+# print(list(zipped))
+
+for a,b in zip(s1,s2):
+    print(a,b)

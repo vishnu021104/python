@@ -1,17 +1,38 @@
-# write a python  function to sum all the numbers in the list.
-numbers=[30,63,35,86,95]
-total_sum=sum(numbers)
-print("sum of all numbers in the list is:",total_sum)
+# sum of numbers from user input
 
-# using function
+sum=0
+ncount=0
 
-def sum(numbers):         # function definition
-    total=0               # local variable
-    for i in numbers:
-        total+=i          # total=total+i
-    return total
-print(sum([10,54,6,33,264,43,35])) # function call  
+while True:
+    choice=input("enter the choice (y/n) : ").lower()
+
+    if choice == 'n':
+        break
+
+    elif choice == 'y':
+        number=int(input("enter a number : "))
+        sum+=number
+        ncount+=1
+        
+        average=sum/ncount
+
+        print("sum is : ",sum)
+
+        print("average is : ",average)
 
 
-s=[1,2,3,4,5]
-print(sum(s))
+    else:
+        print("it is invalid choice")    
+
+
+
+# sum of numbers from 1 to n
+
+
+num=int(input("emter the numbers : "))
+
+sum=0
+
+for i in range(1,num+1):
+    sum=sum+i
+print("sum of natural numbers : ",sum)

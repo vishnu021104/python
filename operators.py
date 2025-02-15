@@ -116,8 +116,8 @@ else:
 a=5
 b=a
 
-print("value of a :")
-print("value of a :")
+print("value of a :",a)
+print("value of b :",b)
 a+=10
 print("value of a+=10 :",a)
 

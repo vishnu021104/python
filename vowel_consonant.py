@@ -13,3 +13,14 @@ for i in str:
 
 print("number of vowels in {} is {}".format(str,vcount))
 print("number of consonants in {} is {}".format(str,ccount))
+
+
+
+# find the letter vowel or consonant
+
+chr="v"
+vowels=['a','e','i','o','u']
+if chr in vowels:
+    print("vowel")
+else:
+    print("consonant")    
