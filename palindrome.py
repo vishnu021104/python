@@ -10,4 +10,16 @@ ans=ispalindrome(s)
 if ans:
     print("this is palindrome")
 else:
-    print("this is not palindrome")    
+    print("this is not palindrome")  
+
+
+
+# problem-2
+
+forw=input("enter a word: ") 
+rev=forw[::-1]
+
+if forw==rev:
+    print("It is the polindrome")
+else:
+    print("It is not polindrome")    

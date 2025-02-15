@@ -44,3 +44,8 @@ print("Reshuffled list is : ",list)
 #uniform() function
 print("random float uniform : ",random.uniform(1,15))
 print("random float uniform : ",random.uniform(20,50))
+
+
+import random
+num=random.randint(1,20)
+print(num)

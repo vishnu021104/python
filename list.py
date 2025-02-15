@@ -154,3 +154,29 @@ print("changing tuple to list is :",list1)
 str="vishnu"
 list2=list(str)
 print("changing string to list is :",list2)
+
+
+
+
+list=["c","c++","java","html","python"]
+
+m=[i for i in list]
+print(m)
+
+
+n=[i for i in range(10)]
+print(n)
+
+
+k=[1,2,3,4,5,6,7,8,9]
+
+new_list=[]
+for i in k:
+    if i%2==0:
+        new_list.append(i)
+print(new_list)
+
+
+
+m=[i for i in range(10) if i%2==0]
+print(m)

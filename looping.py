@@ -96,7 +96,7 @@ for i in range(1,7,2):
 
 
 # for loop iterating by sequence index
-# dict={key:value}
+# dict={key:value/.l}
 
 dict={'html':50,'css':70,'js':30,'python':60}
 for i in dict:

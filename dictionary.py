@@ -35,4 +35,34 @@ else:
 # create a list  of empty dictionaries
 #[{},{},{},{},{}]
 
-print([{} for _ in range(10)])
+# print([{} for _ in range(10)])
+
+
+dict={'html':1,'css':2,'python':3}
+print(dict)
+print("dict['html']", dict['html'])
+print("dict['css']", dict['css'])
+
+
+# updating the dictionaries
+dict['html']=5
+dict['java']=6
+print("after updating dictionary  :",dict)
+
+# deleting the dictionary
+
+del dict['css']
+print("after deleting dictonary :",dict)
+
+
+dict.clear()
+print("after a clear dictionary :",dict)
+
+
+dict={1:'a',2:'b',3:'c'}
+dict.copy()
+print("after copy the dictionary :",dict)
+print(dict.get(3))
+print(dict.keys())
+print(dict.values())
+print(dict.items())

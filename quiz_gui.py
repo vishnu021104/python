@@ -21,7 +21,7 @@ for i in range(0,len(questions)):
     user_answer=simpledialog.askstring(questions[i],"Answer: ")
 
     if user_answer==answers[i]:
-        messagebox.showinfo("correct","coreect")
+        messagebox.showinfo("correct","correct")
         score=score+1
     else:
         messagebox.showinfo("incorrect","incorrect")    

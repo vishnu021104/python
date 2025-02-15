@@ -1,0 +1,77 @@
+'''
+single inheritance
+multilevel inheritance
+multiple inheritance
+heirachy inheritance
+
+'''
+
+
+# class parent():
+#     def output(self):
+#         print("i am parent")
+
+# class child(parent):
+#     def outputc(self):
+#         print("i am child")      
+# b=child()                       # obj name=class name
+# b.outputc()                     # obj name.method name
+# b.output()                      # obj name.method name  
+
+
+
+       
+# class grandparent():
+#     def outputgf(self):
+#         print("i am grandparent")
+
+# class parent(grandparent):
+#     def outputp(self):
+#         print("i am parent") 
+
+# class child(parent):
+#     def outputc(self):
+#         print("i am child")             
+# b=child()                       # obj name=class name
+# b.outputc()                     # obj name.method name
+# b.outputp()  
+# b.outputgf()
+
+
+
+
+# class father():
+#     def outputf(self):
+#         print("i am father")
+
+# class mother():
+#     def outputm(self):
+#         print("i am mother") 
+
+# class child(father,mother):
+#     def outputc(self):
+#         print("i am child")             
+# b=child()                       # obj name=class name
+# b.outputc()                     # obj name.method name
+# b.outputf()  
+# b.outputm()
+
+
+
+class parent():
+    def outputp(self):
+        print("i am parent")
+
+class child1(parent):
+    def outputc1(self):
+        print("i am child1") 
+
+class child2(parent):
+    def outputc2(self):
+        print("i am child2")             
+b1=child1() 
+b2=child2()                     # obj name=class name
+b1.outputc1()                     # obj name.method name
+b1.outputp()  
+b2.outputc2()
+b2.outputp()
